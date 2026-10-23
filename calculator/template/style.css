@@ -1,0 +1,41 @@
+table{
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: black;
+    background-color: rgb(56, 50, 50);
+    align-items: center;
+    margin: auto;
+}
+body{
+    background-color: darkgrey;
+}
+div{
+    margin: 100px;
+    }
+.display{
+    background-color: aliceblue;
+    width:90%;
+    height: 60px;
+    margin: 10px;
+}
+.no{
+    background-color: gray;
+    color: black;
+    font-size: larger;
+    margin: 10px;
+    width: 60px;
+    height: 40px;
+    font-weight: bold;
+}
+.key{
+    background-color: rgb(227, 112, 19);
+    color: black;
+    font-size: larger;
+    margin: 10px;
+    width: 60px;
+    height: 40px;
+}
+h3{
+    text-align: center;
+    color: antiquewhite;
+}
