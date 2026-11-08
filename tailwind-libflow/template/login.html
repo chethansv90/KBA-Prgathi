@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>login</title>
+</head>
+<body class="container m-0">
+    <header class=" bg-blue-900">
+        <nav class=" flex justify-between w-full   p-2">
+            <a><img class="w-8 md:w-16 lg:w-12" src="../image/logo.jpg" alt="logo"></a>
+            <h1 class="text-lg font-bold">LIB-FLOW</h1>
+            <ul class="flex gap-4 font-bold">
+                <li><a href="../template/index.html">HOME</a></li>
+                <li><a href="../template/login.html">LOGIN</a></li>
+                <li><a href="../template/sighup.html">SIGN UP</a></li>
+                <li><a href="../template/addbook.html">ADD BOOK</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="flex justify-center items-center bg-blue-200 h-screen ">
+        <div class="w-96 p-6 shadow-lg bg-blue-900  border ">
+            <h1 class="text-center text-2xl font-bold"> LOGIN</h1>
+            <form action="">
+                <div class="mt-2 text-white">
+                    <label class="block text-base">Email / USERNAME </label><br>
+                    <input type="text" class="border w-full  px-1 py-1" placeholder="Enter your username">
+                </div>
+                <div class="mt-2 mb-2 text-white">
+                    <label class="block text-base ">Password</label><br>
+                    <input type="password" class="border w-full text-base px-1 py-1" placeholder="Enter your password"><br>
+                    <p class="text-right"><a href="">Forgot password</a></p>
+                </div>
+                <center><button class="button bg-blue-200 text-black px-4 py-2 border hover:bg-blue-300 rounded-lg w-">Login</button></center>
+                <p class="text-white">New user ?<a href="../template/sighup.html">Register Now</a></p>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
